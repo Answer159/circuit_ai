@@ -1,0 +1,36 @@
+train: C:\Users\10844\PycharmProjects\edaCompete\data1\train
+val: C:\Users\10844\PycharmProjects\edaCompete\data1\test
+
+nc: 22  # 类别数量
+names:
+  0: pmos
+  1: pmos-bulk
+  2: nmos
+  3: nmos-bulk
+  4: gnd
+  5: vdd
+  6: resistor
+  7: voltage
+  8: current
+  9: cross-line-curved
+  10: port
+  11: pnp
+  12: npn
+  13: diode
+  14: capacitor
+  15: single-end-amp
+  16: single-input-single-end-amp
+  17: switch
+  18: voltage-lines
+  19: inductor
+  20: diff-amp
+  21: resistor2
+#先统一到同一名称再训练还是最后再区分？
+#resistor2和resistor统一？
+#pmos pmos-cross pmos-bulk统一
+#nmos nmos-cross nmos-bulk统一
+#pnp-cross和pnp统一
+#npn-cross和npn统一
+#capacitor-3和capacitor统一
+#inductor-3和inductor统一
+#switch和switch-3统一?
